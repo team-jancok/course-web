@@ -72,6 +72,10 @@ nav .nav-wrapper {
   font-weight: bolder;
 }
 
+.copy-right {
+  color: white;
+}
+
 /* Footer */
 footer {
   background-color: #0984E3;
@@ -80,7 +84,7 @@ footer {
   text-align: center;
 }
 
-p {
+p.copyright{
   padding: 20px 0;
   color: white;
 }

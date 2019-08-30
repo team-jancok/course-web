@@ -18,46 +18,35 @@
   <body>
     <main>
       <section>
-        <!-- <nav class="nav">
-          <div class="nav-container">
-            <a href="">JANCOK</a>
-            <div class="nav-menu">
-              <a class="btn-menu" href="#">Home</a>
-              <a class="btn-menu" href="#">About</a>
-              <a class="btn-menu" href="#">Course</a>
-            </div>
-          </div>
-        </nav> -->
-
         <nav>
           <div class="nav-wrapper">
             <a href="#" class="brand-logo">JAN</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-              <li><a href="sass.html">Home</a></li>
-              <li><a href="badges.html">About</a></li>
-              <li><a href="collapsible.html">Course</a></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#course">Course</a></li>
             </ul>
           </div>
         </nav>
       </section>
 
-      <section class="index-header">
+      <section class="index-header" id="header">
         <div class="header-container">
           <h1 class="header-title">Sini cuy belajar koding..</h1>
         </div>
       </section>
 
-      <div class="row">
+      <div class="row" id="course">
         <div class="col s4">
           <div class="row">
             <div class="col s12 m7">
               <div class="card">
                 <div class="card-image">
                   <img src="./assets/images/html-5.svg" />
-                  <span class="card-title">Card Title</span>
                 </div>
                 <div class="card-content">
-                  <p>
+                    <span class="card-title">HTML</span>
+                  <p class="course-desc">
                     HTML nya aja dulul laah
                   </p>
                 </div>
@@ -74,10 +63,11 @@
               <div class="card">
                 <div class="card-image">
                   <img src="./assets/images/css-3.svg" />
-                  <span class="card-title">Card Title</span>
                 </div>
                 <div class="card-content">
-                  <p>
+                    <span class="card-title">CSS</span>
+
+                  <p class="course-desc">
                     Belajar html CSS sinii
                   </p>
                 </div>
@@ -92,8 +82,8 @@
     </main>
 
     <footer>
-      <div class="copyright">
-        <p>Copyright &copy; by Team JANCOK</p>
+      <div>
+        <p class="copyright">Copyright &copy; by Team JANCOK</p>
       </div>
     </footer>
 

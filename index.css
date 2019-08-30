@@ -10,7 +10,6 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: inherit;
-  padding-top: 88px;
 }
 
 div {
@@ -21,37 +20,14 @@ a {
   text-decoration: none;
 }
 
-/* Navigasi */
-nav {
-  display: block;
-}
-
-.nav {
+/* Nav */
+nav{
   position: fixed;
-  z-index: 10;
-  left: 0;
-  right: 0;
-  top: 0;
-  border-bottom: 1px solid #ebebeb;
-  background-color: rgba(255, 255, 255, 0.9)
+  background-color: #0984E3;
 }
 
-.nav-container {
-  max-width: 1320px;
-  margin: auto;
-  padding: 0 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 90px;
-}
-
-.nav-logo {
-
-}
-
-.nav-menu {
-
+nav .nav-wrapper {
+  margin: 0 60px;
 }
 
 .btn-menu {
@@ -66,10 +42,11 @@ nav {
   background-image: url(./assets/images/undraw_code_review.svg);
   background-repeat: no-repeat;
   background-size: 700px;
-  background-position: 60px 60px;
+  background-position-x: 60px;
+  background-position-y: 90px;
   padding-top: 50px;
   padding-bottom: 60px;
-  height: 500px;
+  height: 700px;
 }
 
 .header-container {
@@ -80,4 +57,30 @@ nav {
   text-align: right;
   font-weight: 700;
   font-size: 40px;
+}
+
+.row {
+  display: flex;
+}
+
+.row .col.s4 {
+  margin: 0;
+}
+
+.card .card-image .card-title {
+  color: #6a6969;
+  font-weight: bolder;
+}
+
+/* Footer */
+footer {
+  background-color: #0984E3;
+  color: white;
+  padding: 50px 0 20px;
+  text-align: center;
+}
+
+p {
+  padding: 20px 0;
+  color: white;
 }

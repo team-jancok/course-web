@@ -36,6 +36,17 @@ ul{
   color:#A1A8B4;
   background-color:#1A5684;
 }
+.navs-2 a{
+  border-top:1px solid black;
+  border-bottom:1px solid black;
+  height:67px;
+  text-decoration: none;
+  padding-left:15px;
+  display:flex;
+  align-items:center;
+  color:#A1A8B4;
+  background-color:#1A5684;
+}
 
 .nav-1{
   padding-left:15px;

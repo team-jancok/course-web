@@ -49,3 +49,13 @@ body{
   margin:0;
   padding:0;
 }
+
+#container-outsider{
+  display:flex;
+  justify-content: flex-start;
+}
+.video-video{
+  display:flex;
+  align-items: center;
+  padding-left:350px;
+}
